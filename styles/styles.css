@@ -22,7 +22,7 @@ main img {
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 main {
@@ -37,6 +37,10 @@ aside {
     background-color: rgb(255, 0, 0, .3);
     color: darkgreen;
     text-align: center;
+}
+
+aside img {
+    box-shadow: none;
 }
 
 footer {
