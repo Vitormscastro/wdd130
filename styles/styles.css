@@ -52,8 +52,9 @@ h1 {
 
 main img {
     float: right;
-    width: 150px;
+    width: 200px;
     height: auto;
+    margin-left: 10px;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -62,7 +63,6 @@ main img {
 p {
     padding: 10px;
 }
-
 
 aside img {
     margin-top: 10px;
