@@ -21,7 +21,6 @@
 }
 
 header {
-    padding: auto;
     background-color: #B5E48C;
     display: grid;
     grid-template-columns: 1fr 2fr;
