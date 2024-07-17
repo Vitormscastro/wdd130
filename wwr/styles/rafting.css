@@ -135,3 +135,112 @@ footer {
 footer a {
     text-decoration: none;
 }
+
+.staff img {
+    max-height: 200px;
+}
+
+.contact_main h1, p {
+    text-align: center;
+}
+
+.information {
+    display: grid;
+    border-top: solid #B5E48C;
+}
+
+.information ul {
+    grid-column: 1/2;
+    align-content: center;
+    font-size: 1.1rem;
+}
+
+.maps {
+    grid-column: 2/3;
+}
+
+.staff {
+    display: flex;
+    background-color: #D9ED92;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: #1F8EC1;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #1F8EC1;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #B5E48C;
+    color: #000;
+}
+
+.form-item {
+    display: grid;
+    justify-items: left;
+}
+
+.column1 {
+    grid-template-columns: 1fr 1fr;
+    padding-left: 25px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 6fr;
+}
+
+.radio {
+    display: grid;
+    justify-items: right;
+}
+
+.radio label {
+    justify-self: left;
+}
